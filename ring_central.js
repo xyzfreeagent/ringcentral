@@ -112,6 +112,8 @@ async function startupService() {
     removeTextMessage();
     document.getElementById('frameContainer').appendChild(iFrame);
     RingCentral = iFrame.contentWindow;
+    console.log(FAClient.params);
+    console.log(RingCentral);
   }
 }
 
