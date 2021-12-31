@@ -113,6 +113,7 @@ async function startupService() {
     document.getElementById('frameContainer').appendChild(iFrame);
     RingCentral = iFrame.contentWindow;
     console.log(FAClient.params);
+    console.log(FAClient);
     console.log(RingCentral);
   }
 }
