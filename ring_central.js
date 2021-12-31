@@ -14,7 +14,7 @@ const DIRECTION = {
 
 const SERVICE = {
   name: 'FreeAgentService',
-  appletId: `aHR0cHM6Ly9mcmVlYWdlbnRzb2Z0d2FyZTEuZ2l0bGFiLmlvL2FwcGxldHMvcmluZ2NlbnRyYWwv`,
+  appletId: `phone_call_fa`,
 };
 
 const PHONE_APPLET_CONFIGURATION = {
