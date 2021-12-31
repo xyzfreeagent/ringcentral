@@ -1,0 +1,82 @@
+
+body, html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+footer#footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0,0,0,.13);
+}
+main#frameContainer {
+  height: calc(100vh - 60px);
+}
+#footer button {
+  margin: 0;
+  background-color: #0684bd;
+  color: #FFFFFF;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 100px;
+  border: solid 1px rgba(6, 132, 189, 0.4);
+  cursor: pointer;
+  text-overflow: ellipsis;
+  outline: none;
+  font-size: 13px;
+  width: 100%;
+  max-width: 350px;
+}
+#footer button:hover, #footer button:active, #footer button:focus  {
+  outline: none;
+  opacity: 0.8;
+}
+
+.info-notyf {
+  width: 100%;
+  color: #303030;
+  border: 1px solid #dadada;
+  max-width: 90%!important;
+  background: white;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.notyf__dismiss-btn:after, .notyf__dismiss-btn:before {
+  background: #000!important;
+}
+.notyf__toast.notyf__toast--dismissible.notyf__toast--lower.info-notyf {
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 8px;
+  background: #90ce91;
+  color: white;
+}
+
+.notyf__wrapper {
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+  padding-right: 16px!important;
+}
+.notyf__message {
+  font-size: 14px;
+}
+
+.notyf__dismiss {
+  width: 26px!important;
+}
+.notyf__dismiss-btn:after, .notyf__dismiss-btn:before {
+    background: #fff!important;
+}
